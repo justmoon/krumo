@@ -582,20 +582,6 @@ This is a list of all the values from the <code><b><?php echo realpath($ini_file
 <div class="krumo-root">
 	<ul class="krumo-node krumo-first">
 		<?php echo krumo::_dump($data);?>
-		<li class="krumo-footnote">
-			<div class="krumo-version" style="white-space:nowrap;">
-				<h6>Krumo version <?php echo krumo::version();?></h6> | <a
-					href="http://krumo.sourceforge.net"
-					target="_blank">http://krumo.sourceforge.net</a>
-			</div>
-		
-		<?php if (@$d['file']) { ?>
-		<span class="krumo-call" style="white-space:nowrap;">
-			Called from <code><?php echo $d['file']?></code>,
-				line <code><?php echo $d['line']?></code></span>
-		<?php } ?>
-		&nbsp;
-		</li>
 	</ul>
 </div>
 <?php
