@@ -7,13 +7,14 @@
 
 /* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
-ul.krumo-node {
+ul.krumo-node, #content ul.krumo-node li {
 	margin: 0px;
 	padding: 0px;
+	background: none;
 }
 
 ul.krumo-node ul {
-	margin-left: 20px;
+	margin-left: 18px;
 }
 
 * html ul.krumo-node ul {
